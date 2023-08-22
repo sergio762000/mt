@@ -8,7 +8,7 @@ class SpecMachine extends BaseCar
 {
     private string $extra = '';
 
-    public function __construct($carType = '', $brand = '', $photoFileName = '', $carrying = '', $extra = '')
+    public function __construct($carType = 'spec_machine', $brand = '', $photoFileName = '', $carrying = '', $extra = '')
     {
         parent::__construct($carType, $brand, $photoFileName, $carrying);
         $this->$extra = $extra;

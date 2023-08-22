@@ -11,7 +11,7 @@ class Car extends BaseCar
      */
     private int $passengerSeatsCount;
 
-    public function __construct($carType = '', $brand = '', $photoFileName = '', $carrying = 0.0, $passengerSeatsCount = 0)
+    public function __construct($carType = 'car', $brand = '', $photoFileName = '', $carrying = 0.0, $passengerSeatsCount = 0)
     {
         parent::__construct($carType, $brand, $photoFileName, $carrying);
         $this->passengerSeatsCount = $passengerSeatsCount;

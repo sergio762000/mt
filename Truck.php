@@ -19,7 +19,7 @@ class Truck extends BaseCar
      */
     private float $bodyLength;
 
-    public function __construct($carType = '', $brand = '', $photoFileName = '', $carrying = 0.0, $bodyWidth = 0.0, $bodyHeight = 0.0, $bodyLength = 0.0)
+    public function __construct($carType = 'truck', $brand = '', $photoFileName = '', $carrying = 0.0, $bodyWidth = 0.0, $bodyHeight = 0.0, $bodyLength = 0.0)
     {
         parent::__construct($carType, $brand, $photoFileName, $carrying);
         $this->bodyWidth = $bodyWidth;
